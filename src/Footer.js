@@ -85,7 +85,7 @@ function Footer() {
             <input
               type="text"
               placeholder="full Name"
-              style={{ width: "300px", height: "30px" }}
+              style={{ width: "100px", height: "30px" }}
               required="required"
             />
           </p>
@@ -98,7 +98,7 @@ function Footer() {
             />
           </p>
           <p>
-            <textarea rows="4" cols="50" placeholder="Message" required />
+            <textarea rows="4" cols="45" placeholder="Message" required />
           </p>
           <p>
             <a href="mailto:campaigns@chainfundit.com">
