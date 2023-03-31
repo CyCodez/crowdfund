@@ -8,7 +8,7 @@ function Navigation() {
       <div className="header flex3">
         <div class="flex-items">Email:Campaigns@ChanfundIt.com</div>
         <div class="flex-items">Phone:+442038380360</div>
-        <div class="flex-items">DONATE</div>
+        <div class="flex-items cna">DONATE</div>
       </div>
       <div className="topnav">
         <img

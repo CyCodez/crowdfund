@@ -247,4 +247,7 @@ image-container {
   textarea {
     width: 50%;
   }
+  .flex-items.cna {
+    visibility: hidden;
+  }
 }
