@@ -132,7 +132,7 @@ h2 {
   position: relative;
   height: 800px;
   width: 100%;
-  background-position: center center;
+  /* background-position: center center; */
   background-size: cover;
   left: 0;
   top: 0;
