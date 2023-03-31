@@ -98,7 +98,7 @@ function Footer() {
             />
           </p>
           <p>
-            <textarea rows="4" cols="45" placeholder="Message" required />
+            <textarea rows="4" cols="40" placeholder="Message" required />
           </p>
           <p>
             <a href="mailto:campaigns@chainfundit.com">
