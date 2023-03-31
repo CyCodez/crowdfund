@@ -33,7 +33,9 @@ function About() {
       <h2 className="donate-btn">
         Please donate by clicking the donation button
       </h2>
-      <Donatepay />
+      <div id="pay">
+        <Donatepay />
+      </div>
     </main>
   );
 }

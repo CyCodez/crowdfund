@@ -6,9 +6,17 @@ function Navigation() {
   return (
     <div>
       <div className="header flex3">
-        <div class="flex-items">Email:Campaigns@ChanfundIt.com</div>
-        <div class="flex-items">Phone:+442038380360</div>
-        <div class="flex-items cna">DONATE</div>
+        <div class="flex-items">
+          <a href="mailto:campaigns@chainfundit.com">
+            Email:Campaigns@ChanfundIt.com
+          </a>
+        </div>
+        <div class="flex-items">
+          <a href="tel:+442038380360">+442038380360</a>
+        </div>
+        <div class="flex-items" href="#pay">
+          DONATE
+        </div>
       </div>
       <div className="topnav">
         <img
@@ -24,10 +32,10 @@ function Navigation() {
           Vision
         </NavLink>
         <NavLink className="Navigate" to="/about">
-          About
+          Campaign
         </NavLink>
         <NavLink className="Navigate" to="/home">
-          Campaign
+          About
         </NavLink>
       </div>
     </div>

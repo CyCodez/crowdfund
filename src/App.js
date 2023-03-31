@@ -12,9 +12,9 @@ function App() {
     <div>
       <Navigation />
       <Routes>
-        <Route index element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route index element={<About />} />
+        <Route path="/home" element={<About />} />
+        <Route path="/about" element={<Home />} />
         <Route path="/vision" element={<Vision />} />
         <Route path="/donations" element={<Donate />} />
       </Routes>

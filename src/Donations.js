@@ -36,8 +36,31 @@ function Donatepay() {
           <PaystackButton
             className="paystack-button"
             class="color:'red'"
-            text="Make a Donation"
+            text="Donate USD"
             amount={400000}
+            currency="USD"
+            email="donor@example.com"
+            publicKey={"pk_test_dd5f188919545e617ce374868d5438c118409e61"}
+            onSuccess={onSuccess}
+            onClose={() => console.log("Transaction closed")}
+          />
+          <PaystackButton
+            className="paystack-button"
+            class="color:'red'"
+            text="Donate NGN"
+            amount={400000}
+            currency="NGN"
+            email="donor@example.com"
+            publicKey={"pk_test_dd5f188919545e617ce374868d5438c118409e61"}
+            onSuccess={onSuccess}
+            onClose={() => console.log("Transaction closed")}
+          />
+          <PaystackButton
+            className="paystack-button"
+            class="color:'red'"
+            text="Donate GPB"
+            amount={400000}
+            currency="GBP"
             email="donor@example.com"
             publicKey={"pk_test_dd5f188919545e617ce374868d5438c118409e61"}
             onSuccess={onSuccess}
