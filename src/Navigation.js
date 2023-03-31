@@ -27,7 +27,7 @@ function Navigation() {
           About
         </NavLink>
         <NavLink className="Navigate" to="/home">
-          Home
+          Campaign
         </NavLink>
       </div>
     </div>

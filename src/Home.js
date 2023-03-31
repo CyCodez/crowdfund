@@ -4,8 +4,9 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <div class="image-container">
+      <div className="img-div">
         <img className="charity" src={charity} alt="" />
+        <p className="text">Donate For a Better world</p>
       </div>
     </div>
   );
