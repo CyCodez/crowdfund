@@ -10,10 +10,6 @@
   font-weight: bold;
 }
 
-textarea {
-  width: 60%;
-}
-
 .flex3 {
   justify-content: space-between;
 }
@@ -247,5 +243,8 @@ image-container {
     left: 0;
     top: 0;
     z-index: -999;
+  }
+  textarea {
+    width: 50%;
   }
 }
