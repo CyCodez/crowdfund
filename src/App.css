@@ -10,6 +10,10 @@
   font-weight: bold;
 }
 
+textarea {
+  width: 60%;
+}
+
 .flex3 {
   justify-content: space-between;
 }

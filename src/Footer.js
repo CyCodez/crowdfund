@@ -93,7 +93,7 @@ function Footer() {
             <input
               type="text"
               placeholder="email Address"
-              style={{ width: "300px", height: "30px" }}
+              style={{ width: "200px", height: "30px" }}
               required="required"
             />
           </p>
