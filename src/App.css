@@ -211,7 +211,7 @@ image-container {
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: #f1f1f1;
+    color: white;
   }
   .topnav a {
     float: right;
@@ -223,7 +223,7 @@ image-container {
     font-weight: bold;
   }
   .flex3 {
-    justify-content: space-between;
+    align-self: flex-start;
   }
   .flex {
     display: flex;
@@ -246,8 +246,5 @@ image-container {
   }
   textarea {
     width: 50%;
-  }
-  .flex-items.cna {
-    visibility: hidden;
   }
 }
