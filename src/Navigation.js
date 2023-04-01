@@ -12,10 +12,14 @@ function Navigation() {
           </a>
         </div>
         <div class="flex-items">
-          <a href="tel:+442038380360">+442038380360</a>
+          <a href="tel:+442038380360" className="mytel">
+            +442038380360
+          </a>
         </div>
-        <div class="flex-items" href="#pay">
-          DONATE
+        <div class="flex-items">
+          <a href="#pay" className="mytel">
+            DONATE
+          </a>
         </div>
       </div>
       <div className="topnav">

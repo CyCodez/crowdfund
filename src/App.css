@@ -210,12 +210,15 @@ image-container {
   .header {
     right: 0;
     background-color: #001029;
-    width: 100%;
+    width: 150%;
     height: 80px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     color: white;
+  }
+  .mytel {
+    visibility: hidden;
   }
   .topnav a {
     float: right;
@@ -227,7 +230,7 @@ image-container {
     font-weight: bold;
   }
   .flex3 {
-    align-self: flex-start;
+    align-self: auto;
   }
   .flex {
     display: flex;
