@@ -32,10 +32,10 @@ function Navigation() {
           Vision
         </NavLink>
         <NavLink className="Navigate" to="/about">
-          Campaign
+          About
         </NavLink>
         <NavLink className="Navigate" to="/home">
-          About
+          Campaign
         </NavLink>
       </div>
     </div>

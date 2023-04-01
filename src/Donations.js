@@ -16,7 +16,7 @@ function Donatepay() {
   useEffect(() => {
     const fetchDonations = async () => {
       const response = await fetch(
-        "https://api.paystack.co/transaction?status=success&perPage=10",
+        "https://api.paystack.co/transaction?status=success&perPage=15",
         {
           headers: {
             Authorization: `Bearer ${"sk_test_ebcb964a83cff3bbb27b251ebfe650920e68b723"}`,
