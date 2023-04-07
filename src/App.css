@@ -23,6 +23,16 @@
   padding-right: 45px;
 }
 
+.EP {
+  font-size: 80px;
+}
+
+.EI {
+  border-radius: 15px;
+}
+.error_msg {
+  color: rgb(118, 3, 3);
+}
 .wt {
   color: white;
 }
@@ -260,5 +270,10 @@ image-container {
   }
   textarea {
     width: 50%;
+  }
+  .EI {
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
   }
 }

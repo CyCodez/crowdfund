@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Vision from "./Vision";
+import NoMatch from "./notFound";
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" element={<Home />} />
         <Route path="/vision" element={<Vision />} />
         <Route path="/donations" element={<Donate />} />
+        <Route path="*" element={<NoMatch />} />
       </Routes>
       <Footer />
     </div>
