@@ -2,16 +2,7 @@ import { useState, useEffect } from "react";
 import React from "react";
 
 function Donate() {
-  const [paystackClient, setPaystackClient] = useState(
-    "pk_test_dd5f188919545e617ce374868d5438c118409e61"
-  );
   const [donations, setDonations] = useState([]);
-  const [state, setState] = useState("");
-
-  useEffect(() => {
-    setPaystackClient(window.PaystackPop);
-  }, []);
-
   useEffect(() => {
     const fetchDonations = async () => {
       const response = await fetch(
