@@ -1,4 +1,4 @@
-## This Project is about creating a demo campaign for a charitable cause entitled "Help Ahmeed and Peter pay their tuition fees at unilag
+## This Project is about creating a demo campaign for a charitable cause entitled "Help Ahmed and Peter Pay Their Tuition Fees at UNILAG
 
 The colors used for the project are:
 Emald green,
