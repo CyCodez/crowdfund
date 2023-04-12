@@ -23,8 +23,10 @@ function Donate() {
   const tableRows = donations.map((donation) => (
     <tr>
       <td>{donation.id}</td>
+      <td>{donation.customer.email}</td>
       <td>{new Date(donation.paid_at).toLocaleDateString()}</td>
-      <td>{donation.amount / 100}</td>
+      <td>{donation.amount + 1000}</td>
+      <td>{donation.channel}</td>
       <td>{donation.status}</td>
     </tr>
   ));
@@ -34,8 +36,10 @@ function Donate() {
       <table id="customers">
         <tr>
           <th>Transaction_id</th>
+          <th>customer</th>
           <th>date</th>
           <th>amount</th>
+          <th>channel</th>
           <th>status</th>
         </tr>
         {tableRows}

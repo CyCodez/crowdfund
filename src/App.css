@@ -22,7 +22,13 @@
   padding-left: 45px;
   padding-right: 45px;
 }
-
+.inputF {
+  margin: 6px;
+  padding: 3px;
+}
+.pb {
+  font-weight: bold;
+}
 .EP {
   font-size: 80px;
 }
