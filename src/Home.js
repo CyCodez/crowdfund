@@ -6,7 +6,6 @@ function Home() {
     <div>
       <div className="img-div">
         <img className="charity" src={charity} alt="" />
-        <p className="text">Donate For a Better world</p>
       </div>
     </div>
   );
