@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 export const links = [
   {
@@ -43,22 +43,22 @@ export const links = [
 export const social = [
   {
     id: 1,
-    url: "https://www.twitter.com",
+    url: "https://web.facebook.com/chainfundit10?_rdc=1&_rdr",
     icon: <FaFacebook />,
   },
   {
     id: 2,
-    url: "https://www.twitter.com",
-    icon: <FaTwitter />,
+    url: "https://www.instagram.com/chainfundit/",
+    icon: <FaInstagram />,
   },
   {
     id: 3,
-    url: "https://www.twitter.com",
+    url: "https://www.linkedin.com/company/chainfundit",
     icon: <FaLinkedin />,
   },
   {
     id: 4,
-    url: "https://www.twitter.com",
-    icon: <FaBehance />,
+    url: "https://www.youtube.com/@chainfundit",
+    icon: <FaYoutube />,
   },
 ];
