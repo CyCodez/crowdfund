@@ -1,6 +1,4 @@
 import React from "react";
-import chainlogo from "./chainfundit-logo.png";
-import { NavLink } from "react-router-dom";
 
 function Navigation() {
   return (
@@ -22,7 +20,7 @@ function Navigation() {
           </a>
         </div>
       </div>
-      <div className="topnav">
+      {/* <div className="topnav">
         <img
           src={chainlogo}
           width="300px"
@@ -41,7 +39,7 @@ function Navigation() {
         <NavLink className="Navigate" to="/home">
           Campaign
         </NavLink>
-      </div>
+      </div> */}
     </div>
   );
 }

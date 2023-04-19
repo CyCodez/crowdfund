@@ -4,9 +4,9 @@ import Donatepay from "./Donations";
 function About() {
   return (
     <main>
-      <h2 style={{ textAlign: "center", color: "#FF0000" }}>
+      <h3 style={{ textAlign: "center", color: "#FF0000" }}>
         Help Ahmed and Peter Pay their Tuition Fees at Unilag
-      </h2>
+      </h3>
       <section>
         It is the dream of many young Talented Nigerian youth to go to school
         and receive quality education, but without the means to actualize this

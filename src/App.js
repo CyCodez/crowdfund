@@ -8,10 +8,12 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Vision from "./Vision";
 import NoMatch from "./notFound";
+import Navbar from "./Navbar";
 function App() {
   return (
     <div>
       <Navigation />
+      <Navbar />
       <Routes>
         <Route index element={<About />} />
         <Route path="/home" element={<About />} />
