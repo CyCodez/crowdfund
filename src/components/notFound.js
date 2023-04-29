@@ -1,5 +1,5 @@
 //Displays when you try to access an Invalid Route
-const NoMatch = () => {
+const NotFound = () => {
   return (
     <main>
       <h2 className="error_msg">
@@ -16,4 +16,4 @@ const NoMatch = () => {
   );
 };
 
-export default NoMatch;
+export default NotFound;

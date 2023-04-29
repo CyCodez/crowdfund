@@ -1,4 +1,4 @@
-import charity from "./charity.jpg";
+import charity from "./image/charity.jpg";
 import React from "react";
 
 function Home() {

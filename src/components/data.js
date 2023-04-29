@@ -1,7 +1,6 @@
 import React from "react";
-import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-export const links = [
+const links = [
   {
     id: 1,
     url: "/",
@@ -40,25 +39,4 @@ export const links = [
   },
 ];
 
-export const social = [
-  {
-    id: 1,
-    url: "https://web.facebook.com/chainfundit10?_rdc=1&_rdr",
-    icon: <FaFacebook />,
-  },
-  {
-    id: 2,
-    url: "https://www.instagram.com/chainfundit/",
-    icon: <FaInstagram />,
-  },
-  {
-    id: 3,
-    url: "https://www.linkedin.com/company/chainfundit",
-    icon: <FaLinkedin />,
-  },
-  {
-    id: 4,
-    url: "https://www.youtube.com/@chainfundit",
-    icon: <FaYoutube />,
-  },
-];
+export default links;

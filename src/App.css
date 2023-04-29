@@ -37,6 +37,7 @@ Variables
   --clr-green-light: hsl(125, 71%, 66%);
   --clr-black: #222;
   --transition: all 0.3s linear;
+  --animation: bounce 2s ease-in-out infinite;
   --spacing: 0.1rem;
   --radius: 0.25rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -156,11 +157,23 @@ nav {
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
+  animation: var(--animation);
 }
-.nav-toggle:hover {
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* .nav-toggle:hover {
   color: var(--clr-primary-1);
   transform: rotate(90deg);
-}
+} */
 .logo {
   height: 40px;
 }
@@ -180,6 +193,10 @@ nav {
 }
 .social-icons {
   display: none;
+}
+.social-icons-vis {
+  display: flex;
+  font-size: x-large;
 }
 .links-container {
   height: 0;
@@ -222,7 +239,7 @@ nav {
   }
   .social-icons {
     display: flex;
-    font-size: x-large;
+    font-size: xx-large;
   }
   .social-icons a {
     margin: 0 0.5rem;

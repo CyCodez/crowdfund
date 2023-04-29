@@ -1,0 +1,9 @@
+export { default as About } from "./About";
+export { default as Donate } from "./Donate";
+export { default as Donations } from "./Donations";
+export { default as Footer } from "./Footer";
+export { default as Home } from "./Home";
+export { default as Navbar } from "./Navbar";
+export { default as Navigation } from "./Navigation";
+export { default as NotFound } from "./notFound";
+export { default as Vision } from "./Vision";

@@ -1,14 +1,17 @@
 import "./App.css";
-import Navigation from "./Navigation";
-import Donate from "./Donate";
-import Home from "./Home";
-import About from "./About";
-import Footer from "./Footer";
+import {
+  Donate,
+  Home,
+  About,
+  Footer,
+  Vision,
+  NotFound,
+  Navbar,
+  Navigation,
+} from "./components";
+
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Vision from "./Vision";
-import NoMatch from "./notFound";
-import Navbar from "./Navbar";
 function App() {
   return (
     <div>
@@ -20,7 +23,7 @@ function App() {
         <Route path="/about" element={<Home />} />
         <Route path="/vision" element={<Vision />} />
         <Route path="/donations" element={<Donate />} />
-        <Route path="*" element={<NoMatch />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </div>
