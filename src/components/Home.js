@@ -7,15 +7,15 @@ function Home() {
       <div className="img-div">
         <img className="charity" src={charity} alt="" />
         <main>
-          Welcome to our crowdfunding campaign! We are excited to share our
-          project with you and invite you to become a part of our mission. Our
-          project is focused on helping young talented nigerians access quality
-          education. We believe that this project will have a significant impact
-          on the growth and development of nigeria, and we are excited to bring
-          it to life. However, we need your help to make it happen. By
-          supporting our crowdfunding campaign, you can be a part of this
-          exciting project and help make a difference in the world. Here are
-          some of the benefits of supporting our campaign:
+          <b>Welcome to our crowdfunding campaign!</b> We are excited to share
+          our project with you and invite you to become a part of our mission.
+          Our project is focused on helping young talented nigerians access
+          quality education. We believe that this project will have a
+          significant impact on the growth and development of nigeria, and we
+          are excited to bring it to life. However, we need your help to make it
+          happen. By supporting our crowdfunding campaign, you can be a part of
+          this exciting project and help make a difference in the world. Here
+          are some of the benefits of supporting our campaign:
           <ol>
             <li>
               <b>Be a part of something meaningful:</b> By supporting our
