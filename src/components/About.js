@@ -1,12 +1,29 @@
 import React from "react";
 import Donatepay from "./Donations";
+import Typewriter from "typewriter-effect";
+
+function ContinuousTypewriter() {
+  return (
+    <Typewriter
+      options={{
+        strings: ["Help Ahmed and Peter Pay their Tuition Fees at Unilag"],
+        autoStart: true,
+        loop: true,
+        delay: 50,
+        deleteSpeed: 50,
+        pauseFor: 1000,
+      }}
+    />
+  );
+}
 
 function About() {
   return (
     <main>
       <h3 style={{ textAlign: "center", color: "#FF0000" }}>
-        Help Ahmed and Peter Pay their Tuition Fees at Unilag
+        <ContinuousTypewriter />
       </h3>
+
       <section>
         It is the dream of many young Talented Nigerian youth to go to school
         and receive quality education, but without the means to actualize this
