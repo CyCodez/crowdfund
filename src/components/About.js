@@ -10,7 +10,7 @@ function ContinuousTypewriter() {
         autoStart: true,
         loop: true,
         delay: 50,
-        deleteSpeed: 50,
+        deleteSpeed: 80,
         pauseFor: 1000,
       }}
     />
