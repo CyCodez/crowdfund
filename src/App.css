@@ -370,7 +370,7 @@ a {
 h1,
 h3 {
   text-align: left;
-  font-size: 36px;
+  font-size: 26px;
 }
 h2 {
   color: white;
@@ -457,6 +457,9 @@ image-container {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  table-layout: fixed;
 }
 
 #customers td,
