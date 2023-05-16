@@ -20,26 +20,6 @@ function Navigation() {
           </a>
         </div>
       </div>
-      {/* <div className="topnav">
-        <img
-          src={chainlogo}
-          width="300px"
-          style={{ marginTop: "15px" }}
-          alt="tech"
-        />
-        <NavLink className="Navigate" to="/donations">
-          Donations
-        </NavLink>
-        <NavLink className="Navigate" to="/vision">
-          Vision
-        </NavLink>
-        <NavLink className="Navigate" to="/about">
-          About
-        </NavLink>
-        <NavLink className="Navigate" to="/home">
-          Campaign
-        </NavLink>
-      </div> */}
     </div>
   );
 }

@@ -20,7 +20,7 @@ function ContinuousTypewriter() {
 function About() {
   return (
     <main>
-      <h3 style={{ textAlign: "center", color: "#FF0000" }}>
+      <h3 style={{ textAlign: "center", color: "green" }}>
         <ContinuousTypewriter />
       </h3>
 
